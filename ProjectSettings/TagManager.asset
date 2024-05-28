@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Walls
+  - Heart
   layers:
   - Default
   - TransparentFX
@@ -11,13 +14,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Laser
+  - Bomb
+  - Sentry
+  - Bullet
+  - Dash
   - 
   - 
   - 
@@ -41,3 +44,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3863676483
+    locked: 0
+  - name: Dash
+    uniqueID: 1848669133
+    locked: 0
+  - name: Player
+    uniqueID: 3168548103
+    locked: 0
+  - name: Walls
+    uniqueID: 1620144301
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1051885009
+    locked: 0
+  - name: UI
+    uniqueID: 2318511999
+    locked: 1
